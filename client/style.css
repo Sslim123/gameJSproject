@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+#root{
+    width: 50vw;
+    height: 80vh;
+    background-color: blue;
+    margin: auto;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 2fr 2fr 2fr;
+    opacity: .1;
+}
+#root:hover{
+    cursor: pointer;
+}
+#root .d1{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    background-color: red;
+
+}
+
+#root .d2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}#root .d3{
+    width: 200px;
+    height: 200px;
+    background-color: gray
+}#root .d4{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}#root .d5{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}#root .d6{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
