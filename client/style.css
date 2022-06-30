@@ -1,47 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: wheat;
-}
+
 #root{
-    width: 50vw;
-    height: 80vh;
-    background-color: blue;
-    margin: auto;
+    width: 800px;
+    
+    margin: 20px auto;
     display: grid;
-    padding: 20px;
     grid-template-columns: 2fr 2fr 2fr;
-    opacity: .1;
 }
 #root:hover{
     cursor: pointer;
 }
-#root .d1{
-    width: 200px;
-    height: 200px;
-    background-color: brown;
-    background-color: red;
-
+div{
+    margin:  20px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: rgb(87, 130, 47);
+    /*
+    background: url('https://docs.gimp.org/2.8/en/images/using/preparing_for_web1.png');
+    */
 }
-
-#root .d2{
-    width: 200px;
-    height: 200px;
-    background-color: green;
-}#root .d3{
-    width: 200px;
-    height: 200px;
-    background-color: gray
-}#root .d4{
-    width: 200px;
-    height: 200px;
-    background-color: brown;
-}#root .d5{
-    width: 200px;
-    height: 200px;
-    background-color: green;
-}#root .d6{
-    width: 200px;
-    height: 200px;
-    background-color: gray;
+ img{
+    opacity: 0;
+    border-radius: 50%;
+width: 200px;
+height: 200px;
 }
